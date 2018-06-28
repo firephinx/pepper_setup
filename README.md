@@ -8,3 +8,4 @@
 5. Copy all of the files in the pepper_binaries.zip file from: https://drive.google.com/open?id=1BF4ewnXfKsD6ldcINYbssuVzEouqdJYJ to the new pepper using `scp -r * nao@<PEPPER_IP>:~/`
 6. Make sure to copy the .bash_profile to Pepper using the command `scp -r .bash_profile nao@<PEPPER_IP>:~/`.
 7. Set up the Tablet's wifi by sshing onto Pepper and typing `qicli call ALTabletService._openSettings` which will open the Tablet's wifi settings menu.
+8. Type Pepper's IP address into a browser and add `/advanced` after the ip. Then go to the `Settings` tab and check the option that says Permit deactivation of the safety reflexes.
